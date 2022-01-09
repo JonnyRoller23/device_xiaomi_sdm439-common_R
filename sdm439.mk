@@ -91,36 +91,36 @@ PRODUCT_PACKAGES += \
 
 # GoogleSansFonts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fonts/AndroidClock.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/AndroidClock.ttf \
-    $(LOCAL_PATH)/fonts/CarroisGothicSC-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/CarroisGothicSC-Regular.ttf \
-    $(LOCAL_PATH)/fonts/ComingSoon.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/ComingSoon.ttf \
-    $(LOCAL_PATH)/fonts/CutiveMono.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/CutiveMono.ttf \
-    $(LOCAL_PATH)/fonts/DancingScript-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/DancingScript-Bold.ttf \
-    $(LOCAL_PATH)/fonts/DancingScript-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/DancingScript-Regular.ttf \
-    $(LOCAL_PATH)/fonts/DroidSans-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/DroidSans-Bold.ttf \
-    $(LOCAL_PATH)/fonts/DroidSans.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/DroidSans.ttf \
-    $(LOCAL_PATH)/fonts/DroidSansMono.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/DroidSansMono.ttf \
-    $(LOCAL_PATH)/fonts/NotoColorEmoji.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/NotoColorEmoji.ttf  \
-    $(LOCAL_PATH)/fonts/Roboto-Black.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-Black.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-BlackItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-BlackItalic.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-Bold.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-BoldItalic.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-Italic.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-Light.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-LightItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-LightItalic.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-Medium.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-MediumItalic.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-Regular.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-Thin.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-Thin.ttf \
-    $(LOCAL_PATH)/fonts/Roboto-ThinItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/Roboto-ThinItalic.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-Bold.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-BoldItalic.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-Italic.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-Light.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-LightItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-LightItalic.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-Medium.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-MediumItalic.ttf \
-    $(LOCAL_PATH)/fonts/RobotoCondensed-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts/RobotoCondensed-Regular.ttf   
+    $(LOCAL_PATH)/fonts/AndroidClock.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/AndroidClock.ttf \
+    $(LOCAL_PATH)/fonts/CarroisGothicSC-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CarroisGothicSC-Regular.ttf \
+    $(LOCAL_PATH)/fonts/ComingSoon.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/ComingSoon.ttf \
+    $(LOCAL_PATH)/fonts/CutiveMono.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CutiveMono.ttf \
+    $(LOCAL_PATH)/fonts/DancingScript-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/DancingScript-Bold.ttf \
+    $(LOCAL_PATH)/fonts/DancingScript-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/DancingScript-Regular.ttf \
+    $(LOCAL_PATH)/fonts/DroidSans-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/DroidSans-Bold.ttf \
+    $(LOCAL_PATH)/fonts/DroidSans.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/DroidSans.ttf \
+    $(LOCAL_PATH)/fonts/DroidSansMono.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/DroidSansMono.ttf \
+    $(LOCAL_PATH)/fonts/NotoColorEmoji.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/NotoColorEmoji.ttf  \
+    $(LOCAL_PATH)/fonts/Roboto-Black.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Black.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-BlackItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-BlackItalic.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Bold.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-BoldItalic.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Italic.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Light.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-LightItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-LightItalic.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Medium.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-MediumItalic.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Regular.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-Thin.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Thin.ttf \
+    $(LOCAL_PATH)/fonts/Roboto-ThinItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-ThinItalic.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-Bold.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-BoldItalic.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-Italic.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-Light.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-LightItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-LightItalic.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-Medium.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-MediumItalic.ttf \
+    $(LOCAL_PATH)/fonts/RobotoCondensed-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoCondensed-Regular.ttf   
 
 # Audio configuration 
 PRODUCT_COPY_FILES += \
