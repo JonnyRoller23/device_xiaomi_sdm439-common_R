@@ -110,7 +110,8 @@ PRODUCT_COPY_FILES += \
 # LongShot
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.asus.stitchimage.service-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.asus.stitchimage.service-hiddenapi-package-whitelist.xml \
-    $(LOCAL_PATH)/configs/com.asus.stitchimage-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.asus.stitchimage-hiddenapi-package-whitelist.xml      
+    $(LOCAL_PATH)/configs/com.asus.stitchimage-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.asus.stitchimage-hiddenapi-package-whitelist.xml \
+    $(LOCAL_PATH)/configs/app.lawnchair-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/app.lawnchair-hiddenapi-package-whitelist.xml      
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
@@ -135,6 +136,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     StitchImageService
+
+PRODUCT_PACKAGES += \
+    Lawnchair        
 
 PRODUCT_PACKAGES += \
     libwa_dof
@@ -385,6 +389,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-com.asus.stitchimage.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.asus.stitchimage.service.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions-com.asus.stitchimage.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.asus.stitchimage.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions-com.customqs.lonshot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.customqs.lonshot.xml \
+    $(LOCAL_PATH)/permissions/privapp-permissions-app.lawnchair.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-app.lawnchair.xml \
     $(LOCAL_PATH)/default-permissions/default-asus-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/default-asus-permissions.xml
 
 # Wifi
