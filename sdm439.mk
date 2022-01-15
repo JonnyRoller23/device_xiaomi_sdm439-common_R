@@ -172,7 +172,27 @@ PRODUCT_PACKAGES += \
     StitchImageService
 
 PRODUCT_PACKAGES += \
-    Lawnchair        
+    Lawnchair
+
+# GBoard
+PRODUCT_PACKAGES += \
+    Gboard
+
+# ViaBrowser
+PRODUCT_PACKAGES += \
+    ViaBrowser
+
+# MiXplorer
+PRODUCT_PACKAGES += \
+    MiXplorer 
+
+# MiCalculator
+PRODUCT_PACKAGES += \
+    MiCalculator 
+
+# GoogleRecorder
+PRODUCT_PACKAGES += \
+    GoogleRecorder                
 
 PRODUCT_PACKAGES += \
     libwa_dof
